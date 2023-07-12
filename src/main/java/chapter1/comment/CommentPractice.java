@@ -1,4 +1,4 @@
-package java.building.blocks;
+package chapter1.comment;
 
 public class CommentPractice {
 

@@ -4,7 +4,7 @@ import appendix.AppendixBStudyTipps;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main {
+public class MainComplex {
     public static void main(String[] args) {
         // Press Alt+Eingabe with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
@@ -22,5 +22,12 @@ public class Main {
         AppendixBStudyTipps appB = new AppendixBStudyTipps();
         System.out.println("Test Appendix B:");
         appB.testOperation();
+
+        //Test a class which contains 2 classes
+        /*ClassVsFile classVsFile = new ClassVsFile();
+        classVsFile.doPublicFirstClass();*/
+        //classVsFile.doNotPublicSecondClass; --> it has no access to this class
+
+        //Animal2 animal2 = new Animal2(); --> it has no access to this class and from this package because it is not public
     }
 }

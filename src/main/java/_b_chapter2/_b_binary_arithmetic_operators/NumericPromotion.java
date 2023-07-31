@@ -19,4 +19,11 @@ public class NumericPromotion {
     the resulting value will have the same data type as its promoted operands.
 
     */
+
+
+    public static void main(String[] args) {
+        short a = 10;
+        short b= 3;
+        System.out.println(a/b);
+    }
 }

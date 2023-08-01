@@ -1,6 +1,6 @@
 package _c_chapter3._a_creating_manipulating_strings;
 
-public class Concatenation {
+public class StringConcatenation {
     public static void main(String[] args) {
         System.out.println('\t' + "Example1: ");
         System.out.println(1 + 2);           // 3
@@ -18,5 +18,8 @@ public class Concatenation {
         s += "2";                   // s currently holds "12"
         s += 3;                     // s currently holds "123"
         System.out.println(s);      // 123
+
+
+
     }
 }

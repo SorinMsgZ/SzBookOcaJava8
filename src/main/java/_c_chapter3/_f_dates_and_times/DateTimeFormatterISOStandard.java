@@ -14,6 +14,9 @@ public class DateTimeFormatterISOStandard {
 
         System.out.println(date);
         System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE)); //DateTimeFormatter
+        //sau viceversa
+        System.out.println("viceversa: ");
+        System.out.println(DateTimeFormatter.ISO_LOCAL_DATE.format(date)); //DateTimeFormatter
 
         System.out.println(time);
         System.out.println(time.format(DateTimeFormatter.ISO_LOCAL_TIME)); //DateTimeFormatter

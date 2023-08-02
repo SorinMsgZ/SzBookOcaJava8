@@ -7,5 +7,8 @@ public class StringMethodChaining {
         b = b.replace("B", "2").replace('C', '3');
         System.out.println("a=" + a);
         System.out.println("b=" + b);
+
+        String result = "AniMal   ".trim().toLowerCase().replace('a', 'A');
+        System.out.println(result);
     }
 }

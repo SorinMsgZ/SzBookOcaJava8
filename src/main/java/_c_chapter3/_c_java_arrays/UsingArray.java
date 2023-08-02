@@ -17,5 +17,13 @@ public class UsingArray {
         numbers[10] = 3;//->ArrayIndexOutOfBoundsException
         numbers[numbers.length] = 5;//->ArrayIndexOutOfBoundsException
         for (int i = 0; i <= numbers.length; i++) numbers[i] = i + 5;//->ArrayIndexOutOfBoundsException
+
+
+        // test
+        char[]c = new char[2];
+//        int length = c.length(); //-> does not compile
+        int length = c.length;
+        mammals[0].length();
+
     }
 }

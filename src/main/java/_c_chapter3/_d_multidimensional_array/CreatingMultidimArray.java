@@ -11,6 +11,7 @@ public class CreatingMultidimArray {
 
     //asymmetric array - mode 1
     int[][] differentSize = {{1, 4}, {3}, {9,8,7}};
+    int[][] differentSize2 = new int[][] {{1, 4}, {3}, {9,8,7}};
 
     public static void main(String[] args) {
 
@@ -22,6 +23,8 @@ public class CreatingMultidimArray {
         int [][] argsx = new int[4][];
         argsx [0] = new int[5];
         argsx [1] = new int[3];
+
+        //int[][] java = new int[][]; //-> does not compile
 
     }
 }

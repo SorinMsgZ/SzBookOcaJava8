@@ -1,4 +1,4 @@
-package _e_chapter5._x_abstract_classes;
+package _e_chapter5._b_abstract_classes;
 
 public abstract class CreatingAbstractClass {
     protected int age;

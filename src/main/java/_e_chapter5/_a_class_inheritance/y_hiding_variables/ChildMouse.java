@@ -1,6 +1,6 @@
 package _e_chapter5._a_class_inheritance.y_hiding_variables;
 
-public class Mouse extends Rodent {
+public class ChildMouse extends ParentRodent {
     protected int tailLength = 8;
 
     public void getMouseDetails() {
@@ -8,8 +8,8 @@ public class Mouse extends Rodent {
     }
 
     public static void main(String[] args) {
-        Mouse mouse = new Mouse();
-        mouse.getRodentDetails();
-        mouse.getMouseDetails();
+        ChildMouse childMouse = new ChildMouse();
+        childMouse.getRodentDetails();
+        childMouse.getMouseDetails();
     }
 }

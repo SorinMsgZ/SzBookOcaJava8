@@ -1,5 +1,9 @@
 package _c_chapter3._c_java_arrays;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class UsingArray {
     public static void main(String[] args) {
         String[] mammals = {"monkey", "chimp", "donkey"};
@@ -24,6 +28,9 @@ public class UsingArray {
 //        int length = c.length(); //-> does not compile
         int length = c.length;
         mammals[0].length();
+
+        List<String> xList = Arrays.asList("s","d");
+        xList.size();
 
     }
 }

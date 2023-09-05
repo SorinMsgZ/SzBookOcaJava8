@@ -6,5 +6,8 @@ public class StringImmutability {
         String s2 = s1.concat("2");
         s2.concat("3");
         System.out.println(s2);
+
+        s2 += "haha";
+        System.out.println(s2);
     }
 }

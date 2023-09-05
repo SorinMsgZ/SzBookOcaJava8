@@ -7,8 +7,11 @@ public class StringPractice {
 		String s = "0123456789";
 
 		System.out.println(s.length());
-		System.out.println(s.charAt(10));
+//		System.out.println(s.charAt(10));
 		System.out.println(s.charAt(9));
+		System.out.println(s.startsWith("0"));
+
+		System.out.println(s.endsWith("8"));
 
 	}
 }

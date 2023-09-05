@@ -25,5 +25,22 @@ public class NumericPromotion {
         short a = 10;
         short b= 3;
         System.out.println(a/b);
+
+        char c=10000;
+        char d=20000;
+
+        System.out.println("sum of (10000 + 20000) chars is: " + (c+d));
+
+        char e ='t';
+        char f= 'e';
+
+        System.out.println("casting char 't' means: " + (int) e);
+        System.out.println("casting char 'e' means: " + (int) f);
+        System.out.println("the result of sum ('t' + 'f') (chars) is: " + (e+f));
+
+        char g ='t';
+        char h= 1;
+
+        System.out.println("the result of sum ('t' + 1) (chars) is: " + (g+h));
     }
 }

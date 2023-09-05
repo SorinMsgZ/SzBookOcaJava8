@@ -3,6 +3,10 @@ package _a_chapter1._e_object_references_vs_primitives;
 public class ConvertBackToBinary {
 
     public static void main(String[] args) {
+
+        char a = 56;
+        System.out.println(a);        // returns the symbol of the char -> 8
+
         System.out.println(56);       // decimal base (base 10: digits 0–9) -> 56
         System.out.println(0b11);     // binary base (base 2: digits 0–1) -> 3
         System.out.println(017);      // octal base (base 8: digits 0–7) -> 15

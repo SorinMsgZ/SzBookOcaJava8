@@ -16,9 +16,14 @@ public class ArrayListEquality {
 		list2.add("a");
 		list2.add("b");
 		list2.add("c");
+		
+		List<String> list3 = list1;
 
 		System.out.println(list1.equals(list2)); // true
 		System.out.println(list1 == list2); // false
+		
+		System.out.println(list1.equals(list3)); // true
+		System.out.println(list1 == list3); // true
 
 	}
 

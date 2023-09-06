@@ -30,12 +30,19 @@ public static void main(String[] args) {
 	System.out.println(t1 == t2); // true
 	System.out.println(t1.equals(t2)); // true
 	
-	System.out.println('\n' + "concat. an empty String using + operator:");
+	System.out.println('\n' + "Test3e -concat. an empty String using + operator:");
 	String r1 = "efg";
 	String r2 = "efg";
-	r1 ="efg" + ""; // concat. an empty String using + operator
-	System.out.println(r1 == r2); // true
+	r1 =r1 + ""; // concat. an empty String using + operator
+	System.out.println(r1 == r2); // false!!!
 	System.out.println(r1.equals(r2)); // true
+
+	System.out.println('\n' + "Test3f -concat. an empty String using + operator:");
+	String m1 = "efg";
+	String m2 = "efg";
+	m1 ="efg" + ""; // concat. an empty String using + operator
+	System.out.println(m1 == m2); // true!!!!!
+	System.out.println(m1.equals(m2)); // true
 }
 	
 }

@@ -11,7 +11,7 @@ public class PeriodPractice {
         wrong2 = Period.ofWeeks(1);
         System.out.println(wrong2); // P7D
 
-        Period everyYearAndAWeek = Period.of(1, 0, 7);
-        System.out.println(everyYearAndAWeek); // P1Y7D
+		Period everyYearAndAWeek = Period.of(1, 0, 7);
+		System.out.println(everyYearAndAWeek); // P1Y7D
     }
 }

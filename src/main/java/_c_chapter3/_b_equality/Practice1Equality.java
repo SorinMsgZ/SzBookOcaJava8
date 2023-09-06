@@ -1,6 +1,6 @@
 package _c_chapter3._b_equality;
 
-public class EqualityPractice1 {
+public class Practice1Equality {
     public static void main(String[] args) {
 
         String x1 = new String("Hello World");

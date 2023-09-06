@@ -1,17 +1,15 @@
 package _c_chapter3._a_creating_manipulating_strings;
 
+import java.util.Arrays;
+
 public class StringPractice {
 
 	public static void main(String[] args) {
 
-		String s = "0123456789";
-
-		System.out.println(s.length());
-//		System.out.println(s.charAt(10));
-		System.out.println(s.charAt(9));
-		System.out.println(s.startsWith("0"));
-
-		System.out.println(s.endsWith("8"));
+		String[] strings = { "1000", "9", "109" };
+		Arrays.sort(strings);
+		for (String string : strings)
+		  System.out.print(string + " ");
 
 	}
 }

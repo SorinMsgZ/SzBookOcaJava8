@@ -22,6 +22,12 @@ public class StringEquality {
         System.out.println(s1==s3); //false
         s1 = s1.replace("c","");//object7
         System.out.println(s1==s3); //false
+        
+        
+        String sir1 = "abc" + "def";
+        String sir2 = "abc";
+        sir2 +="def";
+        System.out.println(sir1==sir2); //false
 
     }
 }

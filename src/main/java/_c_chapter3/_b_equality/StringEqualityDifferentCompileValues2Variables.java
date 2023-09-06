@@ -21,9 +21,9 @@ public class StringEqualityDifferentCompileValues2Variables {
 		System.out.println(g2.equals(gg2)); // true
 
 		System.out.println('\n' + "Test2c - using concat() method: ");
-		String g3 = "";
+		String g3 = "a";
 		String gg3 = "abc";
-		g3 = g3.concat("abc");
+		g3 = g3.concat("bc");
 		System.out.println(g3 == gg3); // false
 		System.out.println(gg3.equals(gg3)); // true
 	}

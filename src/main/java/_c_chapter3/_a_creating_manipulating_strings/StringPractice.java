@@ -9,7 +9,8 @@ public class StringPractice {
 		String[] strings = { "1000", "9", "109" };
 		Arrays.sort(strings);
 		for (String string : strings)
-		  System.out.print(string + " ");
+			System.out.print(string + " ");
+		
 
 	}
 }

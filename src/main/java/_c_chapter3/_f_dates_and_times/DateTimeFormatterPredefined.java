@@ -9,20 +9,22 @@ import java.time.format.FormatStyle;
 
 public class DateTimeFormatterPredefined {
 	public static void main(String[] args) {
-		LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
+		LocalDate date = LocalDate.of(2020, Month.APRIL, 10);
 		LocalTime time = LocalTime.of(11, 12, 34);
 		LocalDateTime dateTime = LocalDateTime.of(date, time);
 
+		
+		//with predefined formatter
 		DateTimeFormatter shortDateTime = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
 
-		System.out.println(shortDateTime.format(dateTime));
-		System.out.println(shortDateTime.format(date));
+		System.out.println(shortDateTime.format(dateTime));//10.04.20
+		System.out.println(shortDateTime.format(date));//10.04.20
 //        System.out.println(shortDateTime.format(time)); //-> UnsupportedTemporalTypeException
 
-//ALTERNATIV:
+//ALTERNATIV - viceversa:
 
-		System.out.println(dateTime.format(shortDateTime));
-		System.out.println(date.format(shortDateTime));
+		System.out.println(dateTime.format(shortDateTime));//10.04.20
+		System.out.println(date.format(shortDateTime));//10.04.20
 //        System.out.println(time.format(shortDateTime)); //-> UnsupportedTemporalTypeException
 
 	}

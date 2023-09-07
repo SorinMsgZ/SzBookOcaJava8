@@ -8,20 +8,24 @@ import java.time.format.DateTimeFormatter;
 
 public class DateTimeFormatterISOStandard {
 	public static void main(String[] args) {
-		LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
-		LocalTime time = LocalTime.of(11, 12, 34);
+		LocalDate date = LocalDate.of(2020, Month.JANUARY, 15);
+		LocalTime time = LocalTime.of(07, 12, 34);
 		LocalDateTime dateTime = LocalDateTime.of(date, time);
 
-		System.out.println(date);
-		System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE)); // DateTimeFormatter
+		System.out.println(date); //2020-01-15
+		System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE)); // 2020-01-15
+		
+		
 		// sau viceversa
 		System.out.println("viceversa: ");
-		System.out.println(DateTimeFormatter.ISO_LOCAL_DATE.format(date)); // DateTimeFormatter
+		
+		
+		System.out.println(DateTimeFormatter.ISO_LOCAL_DATE.format(date)); // 2020-01-15
 
-		System.out.println(time);
-		System.out.println(time.format(DateTimeFormatter.ISO_LOCAL_TIME)); // DateTimeFormatter
+		System.out.println(time); //07:12:34
+		System.out.println(time.format(DateTimeFormatter.ISO_LOCAL_TIME)); // 07:12:34
 
-		System.out.println(dateTime);
-		System.out.println(dateTime.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME)); // DateTimeFormatter
+		System.out.println(dateTime); //2020-01-15T07:12:34
+		System.out.println(dateTime.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME)); // 2020-01-15T07:12:34
 	}
 }

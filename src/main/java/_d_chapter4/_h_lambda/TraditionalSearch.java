@@ -14,6 +14,7 @@ public class TraditionalSearch {
         // print(animals, new CheckIfHopper());      // pass class that does check
         printResult(animals, a -> a.canHop());
         printResult(animals,a->a.canSwim());
+        //printResult(animals,()->true); //does not compile - parameter is expected
 
     }
 

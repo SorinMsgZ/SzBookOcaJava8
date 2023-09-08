@@ -1,7 +1,7 @@
 package _d_chapter4._c_acces_modifiers;
 
 public class StaticInitialization {
-    //    private int one; // in this case one is a instance variable: the static initializer can not access the instance variable
+    //    private int one; // in this case one is an instance variable: the static initializer can not access the instance variable
     private static int one;
     private static final int two;
     private static final int three = 3;

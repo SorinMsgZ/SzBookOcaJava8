@@ -22,5 +22,8 @@ public class ChildKangaroo extends ParentMarsupial {
         System.out.println(joey.callParentMethod());
         System.out.println("Call directly isBiped() - child method:");
         System.out.println(isBiped());
+
+        System.out.println("Call directly isBiped() - parent method, using explicit call:");
+        System.out.println(ParentMarsupial.isBiped());
     }
 }

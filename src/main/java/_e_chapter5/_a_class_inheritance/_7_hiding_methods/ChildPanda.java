@@ -7,7 +7,9 @@ public class ChildPanda extends ParentBear{
             System.out.println("Panda bear is chewing");
         }
         public static void main(String[] args) {
-            ChildPanda.eat();
+
+            ChildPanda.eat(); //Panda bear is chewing
+            ParentBear.eat(); //Bear is eating
         }
 
     /*

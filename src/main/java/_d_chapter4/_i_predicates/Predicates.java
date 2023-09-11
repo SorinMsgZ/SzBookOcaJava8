@@ -18,7 +18,5 @@ public class Predicates {
         }
         System.out.println();
 
-        //commit test
-        //another test for commit
     }
 }

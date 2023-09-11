@@ -10,5 +10,5 @@ public class ConstructorPractice {
         ConstructorPractice c = new ConstructorPractice();
     }
 
-    //test
+
 }

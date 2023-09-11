@@ -18,7 +18,7 @@ public class Predicates {
         }
         System.out.println();
         
-       //test
+       
 
     }
 }

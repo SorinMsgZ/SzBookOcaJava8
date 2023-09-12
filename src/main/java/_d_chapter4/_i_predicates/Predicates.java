@@ -17,7 +17,6 @@ public class Predicates {
                 System.out.print(animal + " ");
         }
         System.out.println();
-        
-       //test
+
     }
 }

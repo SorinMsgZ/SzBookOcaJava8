@@ -4,4 +4,6 @@ public class ParentBear {
     public static void eat() {
         System.out.println("Bear is eating");
     }
+
+    public static void testInheritanceOfStaticMethod(){}
 }

@@ -10,6 +10,10 @@ public class ChildKangaroo extends ParentMarsupial {
         System.out.println("Kangaroo hops on two legs: "+isBiped());
     }
 
+    public static void getStaticMethod() {
+        System.out.println("Static - Kangaroo hops on two legs: "+isBiped());
+    }
+
     public boolean callParentMethod(){
         return super.isBiped();
     }
@@ -25,5 +29,8 @@ public class ChildKangaroo extends ParentMarsupial {
 
         System.out.println("Call directly isBiped() - parent method, using explicit call:");
         System.out.println(ParentMarsupial.isBiped());
+
+        System.out.println("Call hidden method which calls other hidden method: ");
+        getStaticMethod();
     }
 }

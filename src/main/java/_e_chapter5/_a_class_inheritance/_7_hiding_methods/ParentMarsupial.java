@@ -7,4 +7,8 @@ public class ParentMarsupial {
     public void getMarsupialDescription() {
         System.out.println("Marsupial walks on two legs: "+isBiped());
     }
+
+    public static void getStaticMethod() {
+        System.out.println("Static - Marsupial walks on two legs: "+isBiped());
+    }
 }

@@ -6,10 +6,16 @@ public class ChildPanda extends ParentBear{
             // Because they are both marked as static, this is not considered an overridden method.
             System.out.println("Panda bear is chewing");
         }
+
+
+
         public static void main(String[] args) {
 
             ChildPanda.eat(); //Panda bear is chewing
             ParentBear.eat(); //Bear is eating
+
+            testInheritanceOfStaticMethod();
+
         }
 
     /*

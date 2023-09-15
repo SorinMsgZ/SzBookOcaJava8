@@ -15,6 +15,12 @@ public class HandleException {
     void getUp(){}
     void seeAnimals(){}
 
+    String method() throws IllegalStateException{
+        System.out.println("test");
+
+        return "sfaa";
+    }
+
     public static void main(String[] args) {
         HandleException test = new HandleException();
         test.explore();

@@ -6,7 +6,10 @@ public class ExplicitThrow {
         throw new Exception();
     }
 
-    void throwCheckedExceptionWithMessage() throws Exception{
+    /*int throwUndeclaredCheckedExceptionWithMessage() {
+        throw new Exception("Ow! I fell."); //DOES NOT COMPILE
+    }*/
+    int throwDeclaredCheckedExceptionWithMessage() throws Exception{
         throw new Exception("Ow! I fell.");
     }
 
